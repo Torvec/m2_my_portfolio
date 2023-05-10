@@ -4,19 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <title>Edward Von Schondorf's Portfolio</title>
 </head>
 <body>
-    <header>
-
+    <header id="top">
+        <section>
+            <div class="profile">
+                <img src="./assets/img/me2.png">
+                <h1>Edward Von Schondorf</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </section> 
     </header>
     <main>
-
+        <section id="hero">
+            <div class="heroContent">
+                <h2>Hello all! I'm Edward Von Schondorf</h2>
+                <p>Step into my portfolio, as I embark on an exciting path as an aspiring full stack developer, fueled by my passion for learning and guided by an unwavering determination to excel in the ever-evolving world of technology.</p>
+            </div>
+        </section>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <section class="cardContainer">
+                <section class="card">
+                    <h3>Pre-Work Study Guide</h3>
+                    <img src="./assets/img/dummy_600x600_000000_orange.png">
+                    <p>Project Description Here</p>
+                    <p><a href="https://torvec.github.io/prework-study-guide/">Github Pages</a></p>
+                </section>
+                <section class="card">
+                    <h3>HoriSEOn Refactor</h3>
+                    <img src="./assets/img/dummy_600x600_000000_orange.png">
+                    <p>Project Description Here</p>
+                    <p><a href="https://torvec.github.io/challenge_1_HoriSEOn_refactor/">Github Pages</a></p>
+                </section>
+                <section class="card">
+                    <h3>My Portfolio</h3>
+                    <img src="./assets/img/dummy_600x600_000000_orange.png">
+                    <p>Project Description Here</p>
+                    <p><a href="https://torvec.github.io/prework-study-guide/">Github Pages</a></p>
+                </section>
+                <section class="card">
+                    <h3>Password Generator</h3>
+                    <img src="./assets/img/dummy_600x600_000000_orange.png">
+                    <p>Project Description Here</p>
+                    <p><a href="#">Under Development</a></p>
+                </section>
+                <section class="card">
+                    <h3>Web API Code Quiz</h3>
+                    <img src="./assets/img/dummy_600x600_000000_orange.png">
+                    <p>Project Description Here</p>
+                    <p><a href="#">Under Development</a></p>
+                </section>
+                <section class="card">
+                    <h3>Project 3</h3>
+                    <img src="./assets/img/dummy_600x600_000000_orange.png">
+                    <p>Project Description Here</p>
+                    <p><a href="#">Under Development</a></p>
+                </section>
+            </section>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Pretium fusce id velit ut. Tortor at risus viverra adipiscing at in tellus integer. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Cursus sit amet dictum sit. Euismod quis viverra nibh cras pulvinar. Fames ac turpis egestas sed tempus urna et pharetra. Lectus nulla at volutpat diam ut venenatis. Bibendum neque egestas congue quisque egestas. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Ornare arcu odio ut sem nulla pharetra diam. Semper viverra nam libero justo. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est. In pellentesque massa placerat duis ultricies lacus sed. Diam sit amet nisl suscipit adipiscing. Sit amet consectetur adipiscing elit.</p>
+        </section>
+        <section id="resume">
+            <h2>Resume</h2>
+            <img src="./assets/img/Resume.png" alt="My current resume">
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="" method="post">
+                <label for="name">Name:</label>
+                <input required type="text" name="name" id="name" placeholder="Enter Your Name">
+                <label for="email">E-Mail:</label>
+                <input required type="text" name="email" id="email" placeholder="Enter your E-Mail">
+                <label for="message">Message:</label>
+                <textarea required cols="30" rows="20" name="message" id="message" placeholder="Enter Your Message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
     </main>
     <footer>
-        
+        <section>
+            <div class="splitContent">
+                <h3>Edward Von Schondorf</h3>
+                <p>Created May 2023</p>
+            </div>
+            <div class="splitContent">
+                <h3>Socials</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/edward-von/">LinkedIn</a></li>
+                    <li><a href="https://github.com/Torvec">GitHub</a></li>
+                    <li><a href="https://dev.to/torvec">Dev.io</a></li>
+                </ul>
+            </div>
+        </section>
     </footer>
 </body>
 </html>
