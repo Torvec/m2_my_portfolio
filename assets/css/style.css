@@ -1,0 +1,220 @@
+:root {
+    --black: rgb(40, 40, 40);
+    --white: rgb(255, 255, 255);
+    --orange: rgb(255, 144, 52);
+    --gray: rgb(131, 131, 131);
+}
+
+body {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 100%;
+    background-color: var(--gray);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+}
+
+header section {
+    width: 75%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+header .profile {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+   font-size: 175%;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    margin: 0 20px 0 0;
+}
+
+nav {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 120%;
+}
+
+nav ul li a {
+    margin-left: 60px;
+    text-decoration: none;
+    color: var(--orange);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: var(--white);
+    text-decoration: underline;
+}
+
+main {
+    
+}
+
+#hero {
+    /* BACKGROUND IMAGE PROVIDED BY UNSPLASH.COM AT https://unsplash.com/photos/yRGSUPl55Ik */
+    background-image: url(../img/marek-piwnicki-yRGSUPl55Ik-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.heroContent {
+    background-color: rgba(255, 255, 255, .85);
+    padding: 20px;
+    width: 60%;
+}
+
+main section {
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 150%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 125%;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.3;
+    font-size: 110%;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+a {
+    color: var(--orange);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--white);
+    text-decoration: underline;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    width: 100%;
+}
+
+.card {
+    width: 33%;
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+form {
+    background-color: var(--white);
+    width: 60%;
+    padding: 50px;
+    margin: 0 auto;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    background-color: var(--orange);
+    border-radius: 5px;
+    border-style: none;
+    padding: 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: var(--black);
+    color: var(--white);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer section {
+    padding: 50px 0;
+    display: flex;
+    width: 75%;
+}
+
+.splitContent {
+    width: 50%;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul li {
+    margin-right: 40px;
+}
