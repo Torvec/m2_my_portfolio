@@ -1,3 +1,5 @@
+/*MY PORTFOLIO STYLES - EDWARD VON SCHONDORF - MAY 2023*/
+
 :root {
     --black: rgb(40, 40, 40);
     --white: rgb(240, 240, 240);
@@ -8,7 +10,7 @@
     --gray: rgb(130, 130, 130);
     --grayLight: rgb(150, 150, 150);
     --hdrFontFam: 'Poppins', sans-serif;
-    --FontFam: 'Roboto-mono', monospace;
+    --mainFontFam: 'Roboto-mono', monospace;
 }
 
 * {
@@ -17,41 +19,48 @@
 
 html {
     scroll-behavior: smooth;
-    font-size: 16px;
+    font-size: 62.5%;/* 10px */
 }
 
 body {
-    background-color: var(--gray);
-    font-family: var(--FontFam);
+    font-family: var(--mainFontFam);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4 {
+    margin-bottom: 1.0em;
     font-family: var(--hdrFontFam);
-    margin-bottom: 1rem;
 }
+
 
 h2 {
-    font-size: 2rem;
+    font-size: 4.0rem; /* 40px */
     text-align: center;
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 3.0rem; /* 30px */
 }
 
 h4 {
-   font-weight: 600; 
+    font-size: 2.5rem; /* 25px */
+    font-weight: bold;
 }
 
 p, label {
     line-height: 1.5;
-    font-size: 1.1rem;
-    margin-bottom: 1.0rem;
+    font-size: 2.0rem; /* 20px */
+    max-width: 75ch;
+    margin-bottom: 1.0em;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 2rem;
 }
 
 a, a:visited {
-    color: var(--orange);
     text-decoration: none;
+    color: var(--orange);
 }
 
 a:hover, a:focus {
@@ -59,76 +68,48 @@ a:hover, a:focus {
 }
 
 a:active {
-    color: var(--red);
-    text-decoration: underline;
+    color: var(--orangeLight);
 }
 
-img {
-    width: 100%;
-    margin-bottom: 1rem;
-}
-
- img.profilePic {
-    border-radius: 6px;
-    box-shadow: 5px 5px 5px var(--black);
- }
+/*SITE HEADER STYLES*/
 
 header {
     position: sticky;
     top: 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     background-color: var(--black);
     color: var(--white);
     border-bottom: 2px solid var(--orange);
 }
 
-header h1 {
-    text-align: center;
-    padding-top: .5rem;
-    margin-bottom: 0;
-}
-
-header h1 a:active {
-    text-decoration: none;
-}
-
-.myName {
-    font-size: 1.5rem;
-    font-weight: 700;
+h1 .myName {
+    font-size: 2.25rem;
+    font-weight: 800;
     color: var(--white);
+    font-family: 'Poppins', sans-serif;
 }
 
-.tagLine {
+h1 .tagLine {
     font-family: var(--FontFam);
     color: var(--orange);
-    font-size: 1.25rem;
+    font-size: 2.0rem;
+    font-weight: 300;
+    font-family: 'Roboto-mono', monospace;
 }
 
 nav {
-    font-size: 1.15rem;
+    font-size: 2.0rem; /* 20px */
 }
 
 nav ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
-nav ul li a {
-    display: block;
-    padding: .5rem;
-}
-
-nav ul li a:hover {
-    background-color: var(--gray);
-}
-
-#hero,
-#about,
-#portfolio,
-#contact {
-    display: flex;
-    justify-content: center;
-    padding: 2rem 0;
-}
+/* SITE MAIN CONTENT STYLES*/
 
 #hero {
     /* BACKGROUND IMAGE PROVIDED BY UNSPLASH.COM AT https://unsplash.com/photos/y6NyYpl89JM */
@@ -138,64 +119,106 @@ nav ul li a:hover {
     background-position: center;
     background-size: cover;
     border-bottom: 2px solid var(--black);
-    min-height: 50vh;
     display: flex;
+    justify-content: center;
     align-items: center;
+    min-height: 90vh;
 }
 
 #hero .content {
     background-color: rgba(255, 255, 255, .5);
     border-radius: 6px;
-    max-width: 900px;
+    padding: 2%;
+    max-width: 1000px;
 }
 
-#about {}
+/* ABOUT ME SECTION */
 
-#portfolio {
-    background-color: var(--orange);
+#about {
+    padding: 4%;
+    background-color: var(--gray);
+    border-bottom: 2px solid var(--black);
 }
 
-.projects {
+#about .content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#about .splitContent {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    flex: 1 1 0;
+    gap: 2rem;
 }
 
-.projectCard {
+#about img {
+    width: 50%;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px var(--black);
+}
+
+/*PORTFOLIO SECTION STYLES*/
+
+#portfolio {
+    padding: 4%;
+    background-color: var(--orange);
+    border-bottom: 2px solid var(--black);
+}
+
+#portfolio .content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#portfolio .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    gap: 1rem;
+}
+
+#portfolio .projectCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--white);
     border-radius: 6px;
-    padding: 1rem;
-    margin-bottom: 1rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
     box-shadow: 5px 5px 5px var(--orangeDark);
 }
 
-.projectCard:hover {
+#portfolio .projectCard:hover {
     background-color: var(--grayLight);
     box-shadow: 5px 5px 5px var(--red);
 }
 
-.projectCard:last-of-type {
-    margin-bottom: 0;
-}
+/*CONTACT SECTION STYLES*/
 
 #contact {
     background-color: var(--grayLight);
+    padding: 4%;
 }
 
-.content {
-    width: 90%;
-    padding: 4%;
+#contact .content {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 form {
     background-color: var(--white);
     border-radius: 6px;
     box-shadow: 10px 10px 6px 0px rgba(90,90,90,1);
-    max-width: 900px;
+    max-width: 1000px;
+    padding: 2%;
 }
 
 label {
     display: block;
-    margin-bottom: 2%;
+    margin-bottom: 1em;
 }
 
 input,
@@ -206,8 +229,6 @@ textarea {
     border-radius: 6px;
     border-style: none;
 }
-
-input {}
 
 textarea {
     resize: none;
@@ -237,18 +258,43 @@ button:active {
 
 footer {
     background-color: var(--black);
-    padding: 4% 5%;
+    padding: 1% 2%;
     color: var(--white);
     border-top: 2px solid var(--orange);
-    font-size: 1.2rem;
+}
+
+footer .content {
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 footer ul {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1.0rem;
+    font-size: 2.0rem;
+    margin-bottom: 1.0em;
 }
 
-footer ul li {
-    margin-right: 6%;
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    nav ul {
+        gap: 8rem;
+    }
+    #about .splitContent {
+        flex-direction: row;
+    }
+    #portfolio .projects {
+        flex-direction: row;
+        gap: 4rem;
+    }
+    footer ul {
+        justify-content: flex-start;
+        gap: 6.0em;
+    }
 }

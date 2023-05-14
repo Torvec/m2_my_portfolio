@@ -17,8 +17,7 @@
     <header>
         <h1>
             <a href="#">
-                <span class="myName">Edward Von Schondorf</span>
-                <span class="tagLine">.myPortfolio()</span>
+                <span class="myName">Edward Von Schondorf</span><span class="tagLine">.myPortfolio()</span>
             </a>
         </h1>
         <nav>
@@ -32,46 +31,48 @@
     <!--SITE MAIN CONTENT-->
     <main>
         <!--HERO BLOCK-->
-        <section id="hero">
-            <section class="content">
+        <div id="hero">
+            <div class="content">
                 <h2>Hi! I'm Edward Von Schondorf</h2>
                 <p>I'm an aspiring full stack web developer, current full-time engineering technician, and Navy Veteran. Welcome to my portfolio!</p>
-            </section>
-        </section>
+            </div>
+        </div>
         <!--ABOUT ME SECTION-->
-        <section id="about">
-            <section class="content">
+        <div id="about">
+            <div class="content">
                 <h2>About Me</h2>
-                <img class="profilePic" src="./assets/img/me.png" alt="A face picture of me at horseshoe bend in Page, Arizona">
-                <p>I am currently working in the field of automation controls engineering and have accumulated 12 years of experience as a technician from my time at Tesla and the United states Navy. Prior to that, I spent around 4 years specializing in front-end website development. Now, I am eager to re-enter the world of web development and surpass my previous accomplishments. So without further ago, let's dive right into it...</p>
-            </section>
-        </section>
+                <div class="splitContent">
+                    <img class="profilePic" src="./assets/img/me.png" alt="A face picture of me at horseshoe bend in Page, Arizona">
+                    <p>I am currently working in the field of automation controls engineering and have accumulated 12 years of experience as a technician from my time at Tesla and the United states Navy. Prior to that, I spent around 4 years specializing in front-end website development. Now, I am eager to re-enter the world of web development and surpass my previous accomplishments. So without further ago, let's dive right into it...</p>
+                </div>
+            </div>
+        </div>
         <!--PORTFOLIO SECTION-->
-        <section id="portfolio">
-            <section class="content">
+        <div id="portfolio">
+            <div class="content">
                 <h2>My Portfolio</h2>
                 <p>Step into my portfolio, as I embark on an exciting path as an aspiring full stack developer, fueled by my passion for learning and guided by an unwavering determination to excel in the ever-evolving world of technology.</p>
-                <section class="projects">
-                    <section class="projectCard">
-                        <img><p>IMG HERE</p>
-                        <h3>My Portfolio</h3>
-                        <p>May 2023</p>
-                    </section>
-                    <section class="projectCard">
-                        <img src="./assets/img/horiseonRefactor.png">
+                <div class="projectCard">
+                    <a href="#"><img src="./assets/img/myPortfolio.png" alt="Screenshot of my portfolio website"></a>
+                    <h3>My Portfolio</h3>
+                    <p>May 2023</p>
+                </div>
+                <div class="projects">
+                    <div class="projectCard">
+                        <a href="https://torvec.github.io/challenge_1_HoriSEOn_refactor/" target="_blank"><img src="./assets/img/horiseonRefactor.png" alt="Screenshot of my HoriSEOn refactor project website"></a>
                         <h3>HoriSEOn Refactor</h3>
                         <p>May 2023</p>
-                    </section>
-                    <section class="projectCard">
-                        <img src="./assets/img/preworkStudyGuide.png">
+                    </div>
+                    <div class="projectCard">
+                        <a href="https://torvec.github.io/prework-study-guide/" target="_blank"><img src="./assets/img/preworkStudyGuide.png" alt="Screenshot of my Pre-work Study Guide website"></a>
                         <h3>Pre-Work Study Guide</h3>
                         <p>April 2023</p>
-                    </section>
-                </section>
-            </section>
-        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!--CONTACT ME SECTION-->
-        <section id="contact">
+        <div id="contact">
             <form class="content" action="mailto:edvonschondorf@gmail.com">
                 <h2>Contact Me</h2>
                 <label for="name">Name:</label>
@@ -82,18 +83,20 @@
                 <textarea required cols="30" rows="20" name="message" id="message" placeholder="Enter Your Message"></textarea>
                 <button type="submit">Submit</button>
             </form>
-        </section>
+        </div>
     </main>
     <!--SITE FOOTER-->
-    <footer>     
-        <h4>Socials</h4>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/edward-von/" target="_blank">LinkedIn</a></li>
-            <li><a href="https://github.com/Torvec" target="_blank">GitHub</a></li>
-            <li><a href="https://dev.to/torvec" target="_blank">Dev.io</a></li>
-        </ul>
-        <p>Created May 2023 | A UC Berkley Full Stack Web Development Bootcamp Project</p>
-        <p>Version 1.0</p>
+    <footer>
+        <div class="content">     
+            <h4>Socials</h4>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/edward-von/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/Torvec" target="_blank">GitHub</a></li>
+                <li><a href="https://dev.to/torvec" target="_blank">Dev.io</a></li>
+            </ul>
+            <p>Created May 2023 | A UC Berkley Full Stack Web Development Bootcamp Project</p>
+            <p>Version 1.0</p>
+        </div>
     </footer>
 </body>
 </html>
