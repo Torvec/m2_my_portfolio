@@ -1,27 +1,45 @@
-# My Portfolio
+# Bootcamp-Week-02-Challenge
 
-AS AN employer
+## Description
 
-I WANT to view a potential employee's deployed portfolio of work samples
+The week 02 bootcamp challenge was to create a website from scratch with various acceptance criteria that included things like a responsive layout, images of previous projects, a profile pic of yourself, a way to contact you, etc. 
 
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+## Visuals
 
-GIVEN I need to sample a potential employee's previous work
+Full site screenshot:
+![HTML Example](./assets/img/fullSitescreenshot.png)
 
-WHEN I load their portfolio
-    THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+## Installation
 
-WHEN I click one of the links in the navigation
-    THEN the UI scrolls to the corresponding section
+Visit the GitHub pages link to see the refactored version of the website: [My Portfolio](https://torvec.github.io/challenge_2_myPortfolio/)
 
-WHEN I click on the link to the section about their work
-    THEN the UI scrolls to a section with titled images of the developer's applications
+## Usage
 
-WHEN I am presented with the developer's first application
-    THEN that application's image should be larger in size than the others
+This page is used for grading purposes by the UC Berkley coding bootcamp staff. It will also be updated as I complete more projects during the bootcamp.
 
-WHEN I click on the images of the applications
-    THEN I am taken to that deployed application
+## Credits
 
-WHEN I resize the page or view the site on various screens and devices
-    THEN I am presented with a responsive layout that adapts to my viewport
+- Hero background image: https://unsplash.com/photos/y6NyYpl89JM
+- Edward Von Schondorf
+
+## License
+
+N/A
+
+## Badges
+
+N/A
+
+## Features
+
+- Semantic HTML elements
+- External Stylesheet
+- Responsive Layout using flex box
+
+## How to Contribute
+
+N/A
+
+## Project Status
+
+Version 1.0 Completed - 14 May 2023
