@@ -19,7 +19,10 @@ This page is used for grading purposes by the UC Berkley coding bootcamp staff. 
 
 ## Credits
 
-- Hero background image: https://unsplash.com/photos/y6NyYpl89JM
+- Hero background image: [Unsplash.com](https://unsplash.com/photos/y6NyYpl89JM)
+- Google Fonts: [Poppins](https://fonts.google.com/specimen/Poppins?query=poppins)
+- Google Fonts: [Roboto-mono](https://fonts.google.com/specimen/Roboto+Mono?query=roboto)
+- Reset CSS: [Meyer Reset CSS V.2](http://meyerweb.com/eric/tools/css/reset/)
 - Edward Von Schondorf
 
 ## License
