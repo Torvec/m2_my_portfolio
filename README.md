@@ -11,7 +11,7 @@ Full site screenshot:
 
 ## Installation
 
-Visit the GitHub pages link to see the refactored version of the website: [My Portfolio](https://torvec.github.io/challenge_2_myPortfolio/)
+Visit the GitHub pages link to see my portfolio website: [My Portfolio](https://torvec.github.io/challenge_2_myPortfolio/)
 
 ## Usage
 
