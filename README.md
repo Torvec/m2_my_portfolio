@@ -7,12 +7,11 @@ The week 02 bootcamp challenge was to create a website from scratch with various
 
 ## GitHub Pages
 
-Visit the GitHub pages link to see website: [Password Generator](https://torvec.github.io/challenge_3_JS_Password_Generator/)
+Visit the GitHub pages link to see website: [My Portfolio](https://torvec.github.io/challenge_2_myPortfolio/)
 
 ## Visuals
 
-Full site screenshot:
-![HTML Example](./assets/img/fullSitescreenshot.png)
+![Site Screenshot](./assets/img/fullSitescreenshot.png)
 
 ## Usage
 
