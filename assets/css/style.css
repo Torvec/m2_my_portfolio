@@ -289,7 +289,13 @@ footer ul {
     }
     #portfolio .projects {
         flex-direction: row;
-        gap: 4rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    #portfolio .projects .projectCard {
+        max-width: 30%;
     }
     footer ul {
         justify-content: flex-start;
