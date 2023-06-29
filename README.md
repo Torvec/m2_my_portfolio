@@ -7,7 +7,7 @@ The week 02 bootcamp challenge was to create a website from scratch with various
 
 ## GitHub Pages
 
-Visit the GitHub pages link to see website: [My Portfolio](https://torvec.github.io/challenge_2_myPortfolio/)
+Visit the GitHub pages link to see website: [My Portfolio](https://torvec.github.io/m2_my_portfolio/)
 
 ## Visuals
 
